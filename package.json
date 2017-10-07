@@ -4,7 +4,8 @@
   "description": "trying out things",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/pyan83/playing-with-electron#readme",
   "dependencies": {
     "electron": "^1.7.8"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "spectron": "^3.7.2"
   }
 }
