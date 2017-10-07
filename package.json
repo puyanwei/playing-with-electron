@@ -1,0 +1,22 @@
+{
+  "name": "testing-electron",
+  "version": "1.0.0",
+  "description": "trying out things",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyan83/playing-with-electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyan83/playing-with-electron/issues"
+  },
+  "homepage": "https://github.com/pyan83/playing-with-electron#readme",
+  "dependencies": {
+    "electron": "^1.7.8"
+  }
+}
