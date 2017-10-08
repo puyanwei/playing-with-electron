@@ -4,13 +4,17 @@
   <head>
     <meta charset="utf-8">
     <title>My test with electron</title>
-    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css" </head>
+    <link rel="stylesheet" href="https://bootswatch.com/cyborg/bootstrap.min.css"
+  </head>
 
     <body>
-      <h1> My Test App </h1>
+      <div class="container">
+        <h1>This page is using Bootstrap and jQuery!</h1>
+        <h3 id="click-counter"></h3>
+        <button class="btn btn-success" id="countbtn">Click here</button>
+        <script src="./view.js"></script>
+      </div>
     </body>
-    <script>
-    require("./renderer.js");
-</script>
+  <script>require("./renderer.js")</script>
 
 </html>
